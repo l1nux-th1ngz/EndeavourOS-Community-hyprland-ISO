@@ -4,7 +4,7 @@
        "position": "top",
        "mod": "dock",
        "exclusive": true,
-       "output": ["HDMI-A-1", "eDP-1", "DP-0", "DP-1",], // Which Monitor waybar opens on        
+       "output": ["HDMI-A-1", "eDP-1", "DP-0", "DP-1", "DP-2"], // Which Monitor waybar opens on        
        "passtrough": false,
        "gtk-layer-shell": true,
        "height": -14,       
