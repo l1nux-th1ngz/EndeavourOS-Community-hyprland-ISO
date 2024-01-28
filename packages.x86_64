@@ -198,39 +198,30 @@ hdparm
 # DESKTOP
 
 ## Desktop environment
-ark
-bluedevil
-breeze-gtk
-dolphin
-dolphin-plugins
-eos-plasma-sddm-config
-gwenview
-haruna
-kcalc
-kate
-kdeplasma-addons
-kdeconnect
-kde-gtk-config
-kgamma
-khotkeys
-kimageformats5
-kinfocenter
-kinit
-kio-fuse
-konsole
-kscreen
-kwallet-pam
-okular
-plasma-desktop
-plasma-disks
-plasma-nm
-plasma-pa
-plasma-systemmonitor
-powerdevil
-sddm-kcm
-spectacle
-xsettingsd
-
+alacritty
+btop
+htop
+glances
+git
+wofi
+waybar
+neofetch
+swaylock
+awesome-terminal-fonts
+swayidle
+hyprland
+kitty
+qt5ct
+thunar
+thunar-archive-plugin
+thunar-volman
+sddm
+eos-sddm-theme
+xdg-desktop-portal-hyprland
+xed
+mpv
+xdg-desktop-portal
+yay
 ## Browser
 firefox
 

@@ -30,7 +30,7 @@ pacman-key --init
 pacman-key --populate archlinux endeavouros
 pacman -Syy
 
-# backup bas configs from skel to replace after liveuser creation
+# backup bash configs from skel to replace after liveuser creation
 mkdir -p "/root/filebackups/"
 cp -af "/etc/skel/"{".bashrc",".bash_profile"} "/root/filebackups/"
 
@@ -51,7 +51,7 @@ cp "/root/liveuser.png" "/var/lib/AccountsService/icons/liveuser"
 rm "/root/liveuser.png"
 
 # Remove liveuser skel to clean for target skel
-pacman -Rns --noconfirm -- "endeavouros-skel-liveuser"
+#pacman -Rns --noconfirm -- "endeavouros-skel-liveuser"
 rm -rf "/root/endeavouros-skel-liveuser"
 
 # setup theming for root user
